@@ -24,7 +24,6 @@ You can run this directly as intended from [![Open In Colab](https://colab.resea
 ## Architecture
 After researching and experimenting with diffrenet Supervised and Deep Reinforcemen Learning techniques, the superiority of Convolutional Neural Networks (CNNs) in handling image-related tasks, backed by significant successes in the field, ultimately cemented the decision to adopt a CNN model for this task.
 Here is a breakdown of the model's layers and charachteristics.
-Model: "sequential_7"
 
 | Layer (type)           | Output Shape        | Param # |
 |------------------------|---------------------|---------|
@@ -38,8 +37,11 @@ Model: "sequential_7"
 | dense_15 (Dense)       | (None, 3)           | 195     |
 
 *Total params:* 4790979 (18.28 MB)
+
 *Trainable params:* 4790979 (18.28 MB)
+
 *Non-trainable params:* 0 (0.00 Byte)
+
 
 ## Conclusion
 Here is the result of an example Betting game after 100 rounds of +1$ on win and -1$ on loss. It is pretty clear that for the most part,  our agent is consistent in accurately reacting to the oponent actions and getting rich!
